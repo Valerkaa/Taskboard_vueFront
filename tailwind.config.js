@@ -9,8 +9,8 @@ module.exports = {
       'md': '30rem'
     },
     colors: {
-      "main-purple": "#635FC7",
-      "main-purple-light": "#A8A4FF",
+      "main-purple": "#e12b2b",
+      "main-purple-light": "#e55656",
       "black": "#000112",
       "very-dark-grey": "#20212C",
       "dark-grey": "#2B2C37",

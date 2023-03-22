@@ -98,9 +98,9 @@ const onClickTask = (column, task) => {
 const bulletColors = (index) => {
   const color = [
     '#fff300',
-    '#ff0000',
+    '#6bb47e',
     '#00ff47',
-    '#00fff7'
+    '#ff0000'
   ]
   if (color[index]) {
     return color[index]

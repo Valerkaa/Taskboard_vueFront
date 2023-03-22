@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("/fonts/PlusJakartaSans-Medium.ttf");
+  src: url("/public/fonts/PlusJakartaSans-Medium.ttf");
   font-weight: normal;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("/fonts/PlusJakartaSans-Bold.ttf");
+  src: url("/public/fonts/PlusJakartaSans-Bold.ttf");
   font-weight: bold;
 }
 body {
@@ -31,7 +31,7 @@ body {
 /* Firefox */
 * {
   scrollbar-width: auto;
-  scrollbar-color: #635fc7 #ffffff;
+  scrollbar-color: #ff0000 #ffffff;
 }
 
 
@@ -46,19 +46,19 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #635fc7;
+  background-color: #ff0000;
   border-radius: 10px;
   border: 3px solid #ffffff;
 }
 .dark * {
   scrollbar-width: auto;
-  scrollbar-color: #635fc7 #2b2c37;
+  scrollbar-color: #ff0000 #2b2c37;
 }
 .dark *::-webkit-scrollbar-track {
   background: #2b2c37;
 }
 .dark *::-webkit-scrollbar-thumb {
-  background-color: #635fc7;
+  background-color: #ff0000;
   border-radius: 10px;
   border: 3px solid #2b2c37;
 }

@@ -1,7 +1,7 @@
 <template>
   <div tabindex="1" ref="sidebarMobile" @blur="onBlur" class="flex flex-col bg-white dark:bg-dark-grey rounded-lg mx-auto max-w-3xs translate-y-[-40%]
   sm:hidden focus:outline-none">
-    <p class="text-medium-grey text-xs font-bold py-4 px-6 ">ALL BOARDS ({{ boardsStore.boards.length }})</p>
+    <p class="text-medium-grey text-xs font-bold py-4 px-6 ">Все доски ({{ boardsStore.boards.length }})</p>
     <div class="overflow-auto max-h-40">
       <div @click="onClickBoard(index)" v-for="(board, index) in boardsStore.boards" :key="index"
         class="flex items-center gap-4 w-11/12 rounded-r-full px-6 py-3 cursor-pointer text-medium-grey font-bold   "
@@ -16,7 +16,7 @@
     <div @click="createNewBoard()"
       class=" flex items-center gap-4 w-11/12 rounded-r-full px-6 py-3 cursor-pointer font-bold fill-main-purple text-main-purple hover:bg-medium-grey/10">
       <IconBoard />
-      <span>+ Create New Board</span>
+      <span>+ Создать новую таблицу</span>
     </div>
     <div class="p-4">
       <DarkModeSwitch class="" />
